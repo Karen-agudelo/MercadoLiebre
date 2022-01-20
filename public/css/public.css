@@ -1,0 +1,159 @@
+#principal {
+    background-color: #EAC926;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    display: block;
+    padding: 10px;
+}
+
+h1.fa-hand-holding-usd {
+    text-align: center;
+}
+
+.burger-menu {
+    margin: 1em auto;
+    background-color: #1259c3;
+    width: fit-content;
+    padding: 1.0em;
+    border-radius: 7px;
+    color: rgb(0, 0, 0)
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+p.discount {
+    font-size: 16px;
+    color: green;
+}
+
+h4.description {
+    font-size: 16px;
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    color: black;
+}
+
+.Search {
+    width: 10px;
+    height: 10px;
+}
+
+#icons {
+    text-align: center;
+
+}
+
+.fa-bars {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    transform: scale(1.6);
+    margin: auto;
+}
+
+
+.fa-truck {
+    color: green;
+    position: relative;
+    top: 10px;
+    transform: scale(1.6);
+    margin: auto;
+}
+
+
+.fa-credit-card {
+    color: #1259c3;
+    position: relative;
+    top: 10px;
+    transform: scale(1.6);
+    margin: auto;
+
+}
+
+.fa-gift {
+    color: #1259c3;
+    position: relative;
+    top: 10px;
+    transform: scale(1.6);
+}
+
+.fa-user-shield {
+    color: #1259c3;
+    position: relative;
+    top: 9px;
+    transform: scale(1.6);
+}
+
+.Copyright {
+    font-size: 12px;
+    line-height: 10px;
+    text-align: left;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main section article {
+    background-color: #fff;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i,
+.discount {
+    color: #39b54a;
+}
+
+article {
+    margin: 10px 0px;
+}
+
+
+.main-article {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+@media (max-width:361px) {
+
+    h4,
+    nav {
+        display: none
+    }
+}
+
+@media(max-width: 769px) and (min-width:362px) {
+    h3 {
+        display: none
+    }
+
+    .burger-menu {
+        display: none
+    }
+
+    .main-article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+}
+
+;
